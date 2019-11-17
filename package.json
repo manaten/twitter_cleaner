@@ -1,0 +1,22 @@
+{
+  "name": "twitter_cleaner",
+  "version": "1.0.0",
+  "description": "Remove all tweets and unfollow all followers / followees from your twitter account.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manaten/twitter_cleaner.git"
+  },
+  "author": "manaten<github@manaten.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manaten/twitter_cleaner/issues"
+  },
+  "homepage": "https://github.com/manaten/twitter_cleaner#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
