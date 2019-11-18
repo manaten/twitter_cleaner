@@ -57,8 +57,8 @@ const removeTweets = async (user_id) => {
     return;
   }
 
-  for (const id of tweets.ids) {
-    const res = await client.post(`statuses/destroy/${id}`, {});
+  for (const tweet of tweets) {
+    const res = await client.post(`statuses/destroy/${tweet.id_str}`, {});
     console.log(`${res.text}(${res.id_str}) is removed.`);
     await sleep(5000);
   }
