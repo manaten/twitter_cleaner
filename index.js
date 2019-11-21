@@ -63,7 +63,7 @@ const removeTweets = async (user_id) => {
     await sleep(5000);
   }
 
-  await removeTweets();
+  await removeTweets(user_id);
 }
 
 
